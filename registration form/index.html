@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mach__∞ | Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="brand">
+            <h1>Mach__∞</h1>
+            <p>Register to solve tomorrow's problems today</p>
+        </div>
+
+        <form id="registerForm">
+            <div class="input-group">
+                <input type="text" id="username" required>
+                <label for="username">Username</label>
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-group">
+                <input type="email" id="email" required>
+                <label for="email">Email</label>
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" required>
+                <label for="password">Password</label>
+                <div class="underline"></div>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="confirm-password" required>
+                <label for="confirm-password">Confirm Password</label>
+                <div class="underline"></div>
+            </div>
+
+            <div class="terms">
+                <input type="checkbox" id="agree-terms" required>
+                <label for="agree-terms">I agree to Mach__∞ <a href="#">Terms</a> and <a href="#">Privacy Policy</a></label>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <span>Create Account</span>
+                <div class="arrow">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M5,13L9,17L7.6,18.42L1.18,12L7.6,5.58L9,7L5,11H21V13H5Z"></path>
+                    </svg>
+                </div>
+            </button>
+        </form>
+
+        <div class="login-link">
+            Already have an account? <a href="#">Sign In</a>
+        </div>
+
+        <div class="notification" id="notification">
+            Registration successful! We'll contact you soon.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
